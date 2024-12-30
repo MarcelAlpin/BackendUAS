@@ -40,7 +40,6 @@ app.use("/api/coffee", coffeeRouter);
 app.use("/api/product", productRouter);
 app.use("/api/article", articleRouter);
 app.use("/api/recipe", recipeRouter);
-
 app.use("/api/auth", authRouter);
 
 // connect to mongoDB
